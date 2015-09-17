@@ -11,7 +11,10 @@ if (count($_POST)>0{
       $n2= $_POST['iptN2']
 
 if($op=='adicao'){
-$res= $n1+$n2;}}
+$res= $n1+$n2;}
+
+if($op=='subtracao'){
+$res= $n1-$n2;}}
 
 else{
 
