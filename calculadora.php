@@ -13,7 +13,14 @@ if (count($_POST)>0{
 if($op=='adicao'){
 $res= $n1+$n2;}}
 
-    
+else{
+
+$n1= "";
+$op= "";
+$n2= "";
+$res= "";}
+
+?>    
 
 
   <div id="calculadora">
@@ -21,7 +28,8 @@ $res= $n1+$n2;}}
      <p><label>N1</label><input name="inptN1" value='<?php echo $n1; ?>'></input></p>
      <p><label>Operacao</label>
         <select name="operacao">
-             <option id="optAdd" value="adicao">Adicao</option>
+             <option id="optAdd" value="adicao">adicao</option>
+             <option id="optSub" value="subtracao">adicao</option>
         </select>    
      </p>
      <p><label>N2</label><input name="iptN2" value='<?php echo $n2; ?>'></input></p>
